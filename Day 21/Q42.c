@@ -26,9 +26,12 @@ int main () {
    s=s+i;
   }
  }
- if(s==n)
+ if(s==n) {
   printf("Perfect number");
- else
+ }
+ else {
   printf("Not perfect number");
+ }
  return 0;
 }
+
