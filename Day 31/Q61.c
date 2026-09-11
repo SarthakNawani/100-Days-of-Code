@@ -10,7 +10,6 @@ int main() {
     scanf("%d", &n);
 
     int a[n];
-
     for (i = 0; i < n; i++) {
         printf("Enter the %d element: ", i + 1);
         scanf("%d", &a[i]);
@@ -26,7 +25,11 @@ int main() {
         }
     }
 
-    printf("%d", found);
+    if (found != -1) {
+        printf("Found at index %d", found);
+    } else {
+        printf("-1");
+    }
 
     return 0;
 }
