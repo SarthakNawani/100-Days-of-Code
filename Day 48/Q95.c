@@ -13,7 +13,6 @@ int main() {
         x++;
         scanf("%c", &ch);
     }
-
     printf("Enter second string: ");
 
     char arr2[100];
