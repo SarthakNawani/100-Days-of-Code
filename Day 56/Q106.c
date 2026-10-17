@@ -1,7 +1,7 @@
 //Find the next greater element for each element of an array.
 
 #include <stdio.h>
-int main() {
+int main(){
     int n;
     printf("Enter number of elements: ");
     scanf("%d", &n);
